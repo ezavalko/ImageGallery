@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageGallery.Web", "ImageGallery.Web\ImageGallery.Web.csproj", "{53BA4732-2807-4381-80C0-4E7DEBED9485}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageGallery.Core", "ImageGallery.Core\ImageGallery.Core.csproj", "{3857B1FA-20C2-4BED-A7DD-FAF4810E3FE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53BA4732-2807-4381-80C0-4E7DEBED9485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53BA4732-2807-4381-80C0-4E7DEBED9485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53BA4732-2807-4381-80C0-4E7DEBED9485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53BA4732-2807-4381-80C0-4E7DEBED9485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3857B1FA-20C2-4BED-A7DD-FAF4810E3FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3857B1FA-20C2-4BED-A7DD-FAF4810E3FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3857B1FA-20C2-4BED-A7DD-FAF4810E3FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3857B1FA-20C2-4BED-A7DD-FAF4810E3FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AAD5611-77E2-44F7-963E-2ADA99B4CEAA}
+	EndGlobalSection
+EndGlobal

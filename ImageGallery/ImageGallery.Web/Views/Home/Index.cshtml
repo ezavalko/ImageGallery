@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@using ImageGallery.Core.Models.ImageApi
+
+@model IQueryable<ImageDetails>
+
+<form asp-action="index" method="get">
+    <div class="input-group mt-3">
+        <input type="text" class="form-control" id="searchTerm" name="searchTerm" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="submit">Find</button>
+        </div>
+    </div>
+</form>
+
+
+<div>
+    @if (Model != null)
+    {
+        <table class="table-light">
+        </table>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Author</th>
+                    <th scope="col">Camera</th>
+                    <th scope="col">Tags</th>
+                    <th scope="col">CroppedPicture</th>
+                    <th scope="col">FullPicture</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var image in Model)
+                {
+                <tr>
+                    <th scope="row">@image.Id</th>
+                    <td>@image.Author</td>
+                    <td>@image.Camera</td>
+                    <td>@image.Tags</td>
+                    <td><img src="@image.CroppedPicture" width="50" height="50" /></td>
+                    <td><img src="@image.FullPicture" width="50" height="50" /></td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
