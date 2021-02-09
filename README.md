@@ -1,6 +1,8 @@
 # Image Gallery Search Sample
 This repository contains sample project which provides users the possibility to search stored images based on attribute fields.
 
+Demo on Azure: https://imagegallerysearch.azurewebsites.net/
+
 ## Build and Run
 ### Visual Studio 2019
 - Open ``` ImageGallery/ImageGallery.sln``` with Visual Studio
